@@ -1,12 +1,42 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+TRANSPORTES ALBORNOZ
+Nombres del equipo:
+- Rose Mery Figueroa
+- Gerson Uziel Valdebenito
+- Marcelo Quileñan
+- Álvaro Riquelme
+Este proyecto se realizará basándonos en las necesidades de la empresa avalada a transportes en base al
+contacto de Víctor Alfredo Albornoz – Jefe y Empresario.
+Los roles que figurarán en nuestro sistema serán:
+1. Jefe:
+Este tendrá un CRUD para los roles que se mencionan a continuación, juntamente con el apruebo o
+rechazo del envío de solicitudes para los transportistas a realizar traslado de un vehículo por parte
+del cliente de un punto A hasta un punto B.
+2. Encargado de Ciudad:
+Este podrá realizar envío de solicitudes para los transportistas, de igual manera podrá aceptar o
+rechazar la solicitud por parte del cliente.
+3. Transportista:
+Gestionar toma y entrega de la solicitud pendiente.
+4. Cliente: Enviar solicitud de transporte. (Punto Inicial y Punto de Entrega)
+Recordar que cada uno de los roles contará con un perfil exclusivo para estos.
+Entre nuestro foco principal estará realizar la gestionar una aplicación web en donde se estará tomando en
+cuenta las siguientes especificaciones:
+Requerimientos funcionales
+Gestión de Conductores:
+Registro de información y desempeño de los transportistas.
+Gestión de vehículos: Registrar, actualizar y eliminar vehículos, exclusivamente Camiones y Camionetas
+(Modelo del vehículo, Patente, Carga Soportada).
+Requerimientos no funcionales
+Seguridad:
+Acceso mediante Autentificación de usuarios
+Escalabilidad:
+Capacidad para aumentar vehículos y transportistas sin pérdida de rendimiento en el sistema.
+Disponibilidad:
+El sistema se deberá mantener horario 24/7 en caso de surgir algún viaje de emergencia.
+Usabilidad:
+Interfaz intuitiva y fácil de usar.
+Requerimientos Técnicos
+Tanto en front-end como en back-end se estará utilizando:
+- React framework de JavaScript
+Tener en cuenta que se estará especificando de manera presencial/online la gestión de carpetas al
+momento de organizar el sistema como tal.
+Esto para tener la comodidad y la seguridad de parte de Diseñadores y Programadores.
